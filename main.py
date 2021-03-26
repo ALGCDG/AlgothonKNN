@@ -2,8 +2,8 @@ from sklearn.neighbors import KNeighborsClassifier
 from sys import stdin
 import pandas as pd
 
-WINDOWSIZE=5 # windowsize input 
-K=10 # K parameter for KNN algorithm  
+WINDOWSIZE=500 # windowsize input 
+K=100 # K parameter for KNN algorithm  
 
 # load training data
 data = list(pd.read_csv('training.csv')['LogReturns'])
